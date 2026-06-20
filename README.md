@@ -60,7 +60,8 @@ switched circuit.
 
 ```
 .
-├── pwm-current-control-converter.pdf               # PSIM schematics, waveforms, Bode plot
+├── pwm-current-control-converter.pdf   # full write-up with derivations
+├── images/                              # PSIM schematics, waveforms, Bode plot
 └── README.md
 ```
 
