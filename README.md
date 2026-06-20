@@ -13,12 +13,12 @@ transient and frequency-domain validation in simulation.
 <!-- fill in your personalized m, n values and derived data -->
 | Parameter | Value |
 |-----------|-------|
-| Input voltage Vi | <!-- e.g. 24 V --> |
+| Input voltage Vi | 34 V |
 | Load inductance L | 2 mH |
 | Load resistance R | 4 Ω |
-| PWM frequency f_PWM | <!-- e.g. 16 kHz --> |
+| PWM frequency f_PWM | 22.974 kHz |
 | Triangle amplitude Vtr | 10 V |
-| Filter time constant Tf | <!-- derived --> |
+| Filter time constant Tf | 0.1741 ms |
 
 ## Approach
 
