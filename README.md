@@ -55,3 +55,28 @@ stability prediction. The measured current ripple is higher than the simplified 
 predicts, because that formula assumes ideal continuous conduction and neglects the regulator dynamics
 and measurement filter — a good example of where a closed-form approximation diverges from the real
 switched circuit.
+
+## Repository Structure
+
+```
+.
+├── pwm-current-control-converter.pdf               # PSIM schematics, waveforms, Bode plot
+└── README.md
+```
+
+## Supporting figures
+
+<!-- Pick a few key screenshots from your PDF and drop them in images/ -->
+- ![Simulation schematic](images/schematic.png) <!-- Fig. 6 -->
+- ![Step response (reference vs. measured current)](images/step_response.png) <!-- Fig. 10 / 12 -->
+- ![Bode plot and phase margin](images/phase_margin.png) <!-- Fig. 37 / 38 -->
+
+## Skills Demonstrated
+
+Closed-loop control design · PI tuning (modulus optimum) · power-electronics modeling and
+linearization · frequency-domain stability (phase margin) · simulation-driven validation against
+theoretical targets.
+
+## Author
+
+Andrei-Emanuel Popa · [andreipopae@gmail.com](mailto:andreipopae@gmail.com) ·
